@@ -11,6 +11,7 @@ import Loader from '../../../helpers/loader'
 const PlaseOrder = () => {
   const navigate = useNavigate()
   const cart = useSelector(state => state.cart)
+  console.log(cart)
   const [createOrder, {isLoading, error}] = useCreateOrderMutation()
 
   useEffect(() => {
@@ -92,7 +93,7 @@ const PlaseOrder = () => {
                       <div className='flex justify-between flex-wrap p-5 bg-[white] w-[70%] rounded-md'>
                         <ul className='text-md'>
                            <li>
-                             <span className='font-medium mb-1'>Items:</span>{"   "}${cart?.itemsPrice}
+                             <span className='font-medium mb-1'>Items:</span>{"   "}{cart?.cartItems[0]?.qty}
                            </li>
                            <li>
                              <span className='font-medium mb-1'>Shipping:</span>{"   "}${cart?.shippingPrice}

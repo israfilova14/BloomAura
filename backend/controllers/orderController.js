@@ -1,4 +1,3 @@
-const { prependOnceListener } = require('../models/categoryModel.js')
 const Order = require('../models/orderModel.js')
 const Product = require('../models/productModel.js')
 
