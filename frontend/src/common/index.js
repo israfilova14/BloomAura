@@ -1,4 +1,4 @@
-const backendDomen = 'https://bloomaura-backend.onrender.com/'
+const backendDomen = 'http://localhost:7000'
 
 const SummaryApi = {
   // USER ROUTES
