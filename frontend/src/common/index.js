@@ -1,4 +1,4 @@
-const backendDomen = process.env.REACT_APP_FRONTEND_URL
+const backendDomen = process.env.REACT_APP_BACKEND_URL
 
 const SummaryApi = {
   // USER ROUTES
