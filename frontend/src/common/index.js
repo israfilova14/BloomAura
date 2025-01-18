@@ -1,4 +1,4 @@
-const backendDomen = 'http://localhost:7000'
+const backendDomen = process.env.REACT_APP_FRONTEND_URL
 
 const SummaryApi = {
   // USER ROUTES
