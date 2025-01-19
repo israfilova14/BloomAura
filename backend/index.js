@@ -25,7 +25,7 @@ app.use(cookieParser())
 
 // CORS CONFIGURATION
 const corsOption = {
-   origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+   origin: process.env.FRONTEND_URL || 'https://bloomaura-frontend.onrender.com',
    credentials: true
 }
 
