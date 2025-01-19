@@ -42,7 +42,7 @@ app.get('/api/config/paypal', (req, res) => {
 })
 
 // SERVER SETUP
-const port = process.env.PORT || 7000
+const port = process.env.PORT || 10000
 
 connectDB().then(() => {
    app.listen(port, () => {
