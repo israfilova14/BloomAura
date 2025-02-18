@@ -1,5 +1,5 @@
 import {fetchBaseQuery, createApi} from '@reduxjs/toolkit/query/react'
-const backendDomen = 'http://localhost:7000'
+const backendDomen = 'https://bloomaura-backend.onrender.com'
 
 const baseQuery = fetchBaseQuery({
   baseUrl: backendDomen,
