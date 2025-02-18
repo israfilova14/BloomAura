@@ -1,5 +1,5 @@
 import React from 'react'
-import { Query } from '../../../redux/api/productApiSlice'
+import { useTopProductsQuery } from '../../../redux/api/productApiSlice'
 import Loader from '../../helpers/loader'
 import SmallProduct from '../../pages/products/small_product'
 import ProductCarusel from '../../pages/products/product_carousel'
